@@ -1,10 +1,5 @@
+{% extends "layout.html" %}
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My Website!</title>
-    </head>
-    <body>
-        <h1>Hello, {{name}}</h1>
-    </body>
-</html>
+{% body block %}
+    <h1>Hello, {{name}}</h1>
+{% endblock %}
